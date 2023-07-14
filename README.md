@@ -10,10 +10,12 @@ https://qiita.com/Pumila/items/29f26fb349d5592046ae
 
 ## Installation method
 **Note: Only those with server admin rights can install the Bot.**
+
 Please click [here](), log in, select the server you want to install on, click [Yes], and then press Authenticate. Complete the installation by checking the robot confirmation screen.If you no longer need it, I would appreciate it if you could ban it to reduce the server load.
 
 ## How to use
 **Note: Although the server information is updated every 5 minutes, depending on the timing of the slash command execution, the bot may not behave as expected.** For instance, you might get notifications to the default destination even after you have changed the notification channel, or you may get notifications even after you have turned them off. Please understand that these are issues due to the program's specifications.
+
 **Furthermore, the bot will not post anything if the base time is not set.**
 
 ### Description of Each Slash Command
