@@ -81,6 +81,7 @@ Blue Protocol is so much fun!!! But Orochi's "Stream of Life" hardly ever appear
 To help cover the server maintenance costs, any donations from those who enjoy this bot would be greatly appreciated.
 
 [Amazon Gift Card Recipient: yskl6695@gmail.com]
+
 https://www.amazon.co.jp/dp/B004N3APGO
 
 [PayPal]
