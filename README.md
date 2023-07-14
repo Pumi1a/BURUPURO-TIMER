@@ -1,7 +1,7 @@
 # BURUPURO-TIMER
 
 ## Introduction
-I have created a Discord Bot that notifies you of the day and night switch timings in BLUE PROTOCOL (hereinafter, "BURUPURO"). If you play BluPro, you'll understand why I wanted to create this. In BluPro, there are Named Bosses that spawn only during the day or night. And the day and night change every 25 minutes. However, when you are on a mission or exploring freely, it's hard to know whether it's day or night. Also, I think there are some people (like myself) who would be working on other tasks and then launch BluPro for a Named Boss that spawns at night. For this reason, I have created a bot that notifies you of the day and night switch timings.
+I have created a Discord Bot that notifies you of the day and night switch timings in BLUE PROTOCOL (hereinafter, "BURUPURO"). If you play BluPro, you'll understand why I wanted to create this. In BURUPURO, there are Named Bosses that spawn only during the day or night. And the day and night change every 25 minutes. However, when you are on a mission or exploring freely, it's hard to know whether it's day or night. Also, I think there are some people (like myself) who would be working on other tasks and then launch BURUPURO for a Named Boss that spawns at night. For this reason, I have created a bot that notifies you of the day and night switch timings.
 
 ## Points to note
 If there are any errors or strange behaviors, please notify the developer via [Twitter](https://twitter.com/Pumi1a). The hosting service used is "Railway". It has a memory of 8GB and a CPU of 8 cores. I don't think it's a particularly demanding bot, but it might become unstable. More information about "Railway" is summarized in the following article:
@@ -76,7 +76,7 @@ You can set whether to temporarily notify the day/night timing. The default valu
 This function is covered by `/set_persistent_posting`, but I created it just in case. You can use either one.
 
 ## Finally
-Blue Protocol is so much fun!!! But Orochi's "Stream of Life" hardly ever appears (damn it!!!). I carefully selected 11 Orochi... For that, I set a timer every 50 minutes while doing other tasks, but I thought it could be automated with a bot, so I created one. Please give it a try.
+BURUPURO is so much fun!!! But Orochi's "Stream of Life" hardly ever appears (damn it!!!). I carefully selected 11 Orochi... For that, I set a timer every 50 minutes while doing other tasks, but I thought it could be automated with a bot, so I created one. Please give it a try.
 
 To help cover the server maintenance costs, any donations from those who enjoy this bot would be greatly appreciated.
 
