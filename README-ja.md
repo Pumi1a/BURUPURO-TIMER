@@ -29,6 +29,7 @@ Bot の各スラッシュコマンドについて説明していきます。
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から、`/set_channel` を選択して下さい。
 2. 通知をさせたいチャンネルを右クリックし、一番下の[チャンネルIDをコピー]を選択し、貼り付けてコマンドを実行して下さい。
 3. Bot から `Set channel to {new_channel_id}.` とメッセージが来ます。
+
 ![1.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/8ab601e4-d986-7b5f-b298-29acbef7e80c.png)
 
 #### 基準時間を設定する
@@ -36,6 +37,7 @@ Bot の各スラッシュコマンドについて説明していきます。
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から、`/set_day_base_time` または `/set_night_base_time` を選択して下さい。`set_day_base_time` では、昼になったタイミングを設定するコマンドで、同時に夜の時間も設定してくれます。逆に `set_night_base_time` では、夜になったタイミングを設定するコマンドで、同時に昼の時間も設定してくれます。
 2. どちらか都合のいいコマンドを選択し、時間を入力してコマンドを実行して下さい。
 3. Bot から `Day base time set to: {hour}:{minute}. The night base time is set to: {hour}:{minute}.` とメッセージが来ます。
+
 <img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/4f06aa25-460a-ab9b-57ae-0737c6dc347c.png"><img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/19d8706b-3d62-82a5-fb77-f165967f85b8.png">
 
 #### 昼夜のどちらかを通知、または両方を通知する
@@ -43,6 +45,7 @@ Bot の各スラッシュコマンドについて説明していきます。
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から、`/set_state` を選択して下さい。
 2. 選択肢として、[Day, Night, Both] が挙がると思います。夜だけ通知させたい方は、`Night` を、昼だけ通知させたい方は `Day` を選択して実行して下さい。やっぱり両方通知させたくなったら、 `Both` を選択して下さい。
 3. Bot から `State set to: {state}` とメッセージが来ます。
+
 ![4.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/ddcd4da3-2486-7e55-2cad-58b22a1ac6ce.png)
 
 #### 通知するタイミングを「あと何分で昼/夜になります」と変更する
@@ -50,6 +53,7 @@ Bot の各スラッシュコマンドについて説明していきます。
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から、`/notify_in_advance` を選択して下さい。
 2. 次にどれくらい前に通知させたいかを分単位で入力し実行して下さい。
 3. Bot から `Will now notify {minutes_before} minutes in advance.` とメッセージが来ます。
+
 ![5.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/b6d3089b-17d2-da45-29e8-a064da134e43.png)
 
 #### 常に通知するか選択する
@@ -57,6 +61,7 @@ Bot の各スラッシュコマンドについて説明していきます。
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から、`/set_persistent_posting` を選択して下さい。
 2. 選択肢として、[True, False] が挙がると思います。常に通知させたくない方は、`False` を選択して下さい。
 3. Bot から `Set persistent_posting to {new_value}.` とメッセージが来ます。
+
 ![6.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/ee389fe1-6d6e-bb89-a848-eedc968c8ff2.png)
 
 
@@ -65,15 +70,22 @@ Bot の各スラッシュコマンドについて説明していきます。
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から、`/set_temporary_posting` を選択して下さい。
 2. 選択肢として、[True, False] が挙がると思います。一時的に通知させたい時に、`True` を、もう通知させなくてよくなったら `False` を選択して下さい。
 3. Bot から `Set temporary_posting to {new_value}.` とメッセージが来ます。
+
 ![7.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/d849bba8-72d0-b2d9-7097-5b46116d6eb0.png)
+
 機能的には `/set_persistent_posting` で補える機能ですが、一応作っておきました。どちらを使用しても構いません。
 
 ## 最後に
 ブルプロ楽しいーーーー！！！オロチの「生命の奔流」全然出ねええええええええ（くそがぁーーーーー）。オロチ 11 体厳選しましたよ…そのために、50 分間隔でタイマーをかけながら、他の作業をしていたのですが、これ Bot で自動化できるんじゃねと思い作成しました。ぜひ使ってみて下さい。
 サーバの維持費用のために、この Bot を気に入ってくれた方はご寄付して頂けると助かります。
+
 【Amazon ギフト券 受取人：yskl6695@gmail.com】
+
 https://www.amazon.co.jp/dp/B004N3APGO
+
 【PayPal】
+
 準備中
+
 ご意見、ご感想、ご要望、エラー報告などは[Twitter](https://twitter.com/Pumi1a) まで。
 
