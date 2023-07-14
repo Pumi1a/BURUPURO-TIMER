@@ -1,3 +1,4 @@
+[日本語版 README はこちら](https://github.com/Pumi1a/BURUPURO-TIMER/blob/main/README-ja.md)
 # BURUPURO-TIMER
 
 ## Introduction
