@@ -26,7 +26,7 @@ You can change the channel to which notifications are sent. By default, it is se
 2. Right-click on the channel where you want to send the notifications, select [Copy Channel ID] at the bottom, paste it, and execute the command.
 3. You will receive a message from the bot saying `Set channel to {new_channel_id}.`
 
-<img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/4f06aa25-460a-ab9b-57ae-0737c6dc347c.png"><img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/19d8706b-3d62-82a5-fb77-f165967f85b8.png">
+![1.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/8ab601e4-d986-7b5f-b298-29acbef7e80c.png)
 
 #### Setting the Base Time
 
