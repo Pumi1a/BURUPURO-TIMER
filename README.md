@@ -93,6 +93,7 @@ To help cover the server maintenance costs, any donations from those who enjoy t
 https://www.amazon.co.jp/dp/B004N3APGO
 
 [PayPal]
-Coming soon
+
+https://www.paypal.com/paypalme/IrsPumila
 
 Please send your opinions, impressions, requests, error reports, etc., to my [Twitter](https://twitter.com/Pumi1a).
