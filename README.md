@@ -6,6 +6,7 @@ I have created a Discord Bot that notifies you of the day and night switch timin
 
 ## Points to note
 If there are any errors or strange behaviors, please notify the developer via [Twitter](https://twitter.com/Pumi1a). I believe I have tested under various conditions, but there might not have been enough debugging, and the behavior may be strange. I apologize. In particular, the behavior of the /set_state command may be odd.
+
 The hosting service used is "Railway". It has a memory of 8GB and a CPU of 8 cores. I don't think it's a particularly demanding bot, but it might become unstable. More information about "Railway" is summarized in the following article:
 
 https://qiita.com/Pumila/items/29f26fb349d5592046ae
