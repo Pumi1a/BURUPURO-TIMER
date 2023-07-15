@@ -90,7 +90,7 @@ https://www.amazon.co.jp/dp/B004N3APGO
 
 【PayPal】
 
-準備中
+https://www.paypal.com/paypalme/IrsPumila
 
 ご意見、ご感想、ご要望、エラー報告などは[Twitter](https://twitter.com/Pumi1a) まで。
 
