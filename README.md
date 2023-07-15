@@ -22,7 +22,9 @@ Please click [here](https://discord.com/api/oauth2/authorize?client_id=112782330
 **Furthermore, the bot will not post anything if the base time is not set.**
 
 ### Description of Each Slash Command
-Here we will explain each slash command of the bot.
+Here we will explain each slash command of the bot.Please try the slash command again if you encounter the following error when executing it.
+
+![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/ad29da08-18cc-0377-f841-a0c0b9fa2655.png)
 
 #### Changing the Notification Channel
 You can change the channel to which notifications are sent. By default, it is set to the system message channel. To save the trouble of setting up a database, channels are managed by their ID. To get the channel ID, go to [User Settings], select [Advanced Settings], and check Developer Mode.
