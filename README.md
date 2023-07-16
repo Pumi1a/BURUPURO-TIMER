@@ -87,6 +87,8 @@ This function is covered by `/set_persistent_posting`, but I created it just in 
 ## Known bugs at present
 When changing from `/set_state` `Day` or `Night` to `Both`, the first post is not made. I'll fix it when I feel like it.
 
+## Current Requests
+
 ## Finally
 BURUPURO is so much fun!!! But Orochi's "Stream of Life" hardly ever appears (damn it!!!). I carefully selected 11 Orochi... For that, I set a timer every 50 minutes while doing other tasks, but I thought it could be automated with a bot, so I created one. Please give it a try.
 
