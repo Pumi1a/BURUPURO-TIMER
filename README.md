@@ -21,6 +21,8 @@ Please click [here](https://discord.com/api/oauth2/authorize?client_id=112782330
 
 **Furthermore, the bot will not post anything if the base time is not set.**
 
+**When redeploying the Bot, we ask that you please reset the configuration. Because preparing the database is cumbersome, we do not save the settings for each server in the database. Please understand.**
+
 ### Description of Each Slash Command
 Here we will explain each slash command of the bot.Please try the slash command again if you encounter the following error when executing it.
 
