@@ -36,7 +36,7 @@ Bot の各スラッシュコマンドについて説明していきます。ス�
 2. 通知をさせたいチャンネル名を入力し、実行して下さい。
 3. Bot から `Set channel to {new_channel_name}.` とメッセージが来ます。
 
-![1.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/8ab601e4-d986-7b5f-b298-29acbef7e80c.png)
+![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/e3090569-16f5-6eb8-1fbd-6f1b1dbc53b0.png)
 
 #### 基準時間を設定する
 昼夜切り替えのタイミングを設定することができます。各サーバで切り替えタイミングが異なっていたり、メンテナンスなどでズレる可能性があるため、自動で設定はしません。ユーザが昼夜切り替えのタイミングを入力するようにしています。入力する時間は過去の時間でも問題ありません。
