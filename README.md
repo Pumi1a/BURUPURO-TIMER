@@ -27,11 +27,11 @@ Here we will explain each slash command of the bot.Please try the slash command 
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/ad29da08-18cc-0377-f841-a0c0b9fa2655.png)
 
 #### Changing the Notification Channel
-You can change the channel to which notifications are sent. By default, it is set to the system message channel. To save the trouble of setting up a database, channels are managed by their ID. To get the channel ID, go to [User Settings], select [Advanced Settings], and check Developer Mode.
+You can change the channel to which notifications are sent. By default, it is set to the system message channel.
 
 1. Type "/" and click on the Blue Pro Timer icon, then select `/set_channel` from the command list.
-2. Right-click on the channel where you want to send the notifications, select [Copy Channel ID] at the bottom, paste it, and execute the command.
-3. You will receive a message from the bot saying `Set channel to {new_channel_id}.`
+2. Enter the name of the channel you want notifications to go to, and execute the command.
+3. You will receive a message from the Bot saying `Set channel to {new_channel_name}.`.
 
 ![1.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/8ab601e4-d986-7b5f-b298-29acbef7e80c.png)
 
