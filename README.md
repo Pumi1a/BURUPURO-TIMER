@@ -95,7 +95,7 @@ You can reset various settings back to their defaults. Please try using this whe
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/53e9d72e-0ac3-9a23-ccf0-4996e17a3f02.png)
 
 ## Known bugs at present
-The changes to `\set_channel` are not being set correctly. Please specify the channel you want to post to before setting the standard time. If you have already set the standard time, please execute the `/reset_server` command before specifying again. I will fix this eventually.
+The changes for `/set_channel` are not being set properly. Please specify the channel you want to post to before setting the base time. If you have already set the base time, please execute the `/reset_server` command and specify again. Also, try setting the base time to a time when the post will be made immediately (about 27 minutes before the current time) after executing the `/set_channel` command, and check if the post is correctly made on the specified channel. I will fix this soon.
 
 ## Current Requests
 
