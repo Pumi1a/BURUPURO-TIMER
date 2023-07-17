@@ -15,7 +15,7 @@ https://qiita.com/Pumila/items/29f26fb349d5592046ae
 ## 導入方法
 **注意：Bot の導入はサーバの管理者権限を持っている方しか出来ません。**
 
-[こちら](https://discord.com/api/oauth2/authorize?client_id=1127823303369834578&permissions=2048&scope=bot%20applications.commands)からクリックしてログイン後、導入したいサーバを選択して[はい]、続いて認証を押下して下さい。ロボットかどうかの確認画面でチェックして導入完了です。
+[こちら](https://discord.com/api/oauth2/authorize?client_id=1127823303369834578&permissions=3072&scope=bot%20applications.commands)からクリックしてログイン後、導入したいサーバを選択して[はい]、続いて認証を押下して下さい。ロボットかどうかの確認画面でチェックして導入完了です。
 必要なくなったら、サーバ負荷軽減のために追放して頂けると助かります。
 
 ## 使い方
