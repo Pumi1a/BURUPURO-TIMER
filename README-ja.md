@@ -81,6 +81,14 @@ Bot の各スラッシュコマンドについて説明していきます。ス�
 
 機能的には `/set_persistent_posting` で補える機能ですが、一応作っておきました。どちらを使用しても構いません。
 
+#### 設定を初期設定にリセットする
+各種設定を初期設定にリセットすることができます。上手く投稿がされない時などに使用してみて下さい。
+1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から、`/reset_server
+` を選択して実行して下さい。
+2. Bot から `Server configuration has been reset. Default post channel set to {channel.name}. Please input your settings.` とメッセージが来ます。
+
+![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/53e9d72e-0ac3-9a23-ccf0-4996e17a3f02.png)
+
 ## 現時点で把握しているバグ
 
 ## 現時点での要望
