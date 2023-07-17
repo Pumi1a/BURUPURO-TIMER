@@ -29,8 +29,6 @@ Here we will explain each slash command of the bot.Please try the slash command 
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/ad29da08-18cc-0377-f841-a0c0b9fa2655.png)
 
 #### Changing the Notification Channel
-**Please execute this first (As of July 17, 2023, there are existing bugs.).**
-
 You can change the channel to which notifications are sent. By default, it is set to the system message channel.
 
 1. Type "/" and click on the Blue Pro Timer icon, then select `/set_channel` from the command list.
@@ -95,7 +93,6 @@ You can reset various settings back to their defaults. Please try using this whe
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/53e9d72e-0ac3-9a23-ccf0-4996e17a3f02.png)
 
 ## Known bugs at present
-The changes for `/set_channel` are not being set properly. Please specify the channel you want to post to before setting the base time. If you have already set the base time, please execute the `/reset_server` command and specify again. Also, try setting the base time to a time when the post will be made immediately (about 27 minutes before the current time) after executing the `/set_channel` command, and check if the post is correctly made on the specified channel. I will fix this soon.
 
 ## Current Requests
 
