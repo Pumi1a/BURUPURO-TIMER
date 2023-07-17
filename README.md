@@ -84,6 +84,14 @@ You can set whether to temporarily notify the day/night timing. The default valu
 
 This function is covered by `/set_persistent_posting`, but I created it just in case. You can use either one.
 
+#### Resetting to Default Settings
+You can reset various settings back to their defaults. Please try using this when you're having trouble posting.
+
+1. Enter "/", click on the Blue Pro Timer icon, and from the command list, select and execute `/reset_server`.
+2. You will receive a message from the Bot saying `Server configuration has been reset. Default post channel set to {channel.name}.`
+
+![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/53e9d72e-0ac3-9a23-ccf0-4996e17a3f02.png)
+
 ## Known bugs at present
 
 ## Current Requests
