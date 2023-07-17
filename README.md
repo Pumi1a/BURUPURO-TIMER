@@ -29,7 +29,7 @@ Here we will explain each slash command of the bot.Please try the slash command 
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/ad29da08-18cc-0377-f841-a0c0b9fa2655.png)
 
 #### Changing the Notification Channel
-**Please execute this first. (As of July 17, 2023, there are existing bugs.)**
+**Please execute this first (As of July 17, 2023, there are existing bugs.).**
 
 You can change the channel to which notifications are sent. By default, it is set to the system message channel.
 
