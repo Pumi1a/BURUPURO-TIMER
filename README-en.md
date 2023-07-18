@@ -33,9 +33,10 @@ You can change the channel to which notifications are sent. By default, it is se
 
 1. Type "/" and click on the Blue Pro Timer icon, then select `/set_channel` from the command list.
 2. Enter the name of the channel you want notifications to go to, and execute the command.
-3. You will receive a message from the Bot saying `Set channel to {new_channel_name}.`.
+3. If you choose a channel where the bot does not have permission to post or a channel that is not a text channel, you will receive a warning like this: Warning: `No permission to post in the channel {new_channel.name}.`, `{new_channel.name} is not a text channel.`.
+4. You will receive a message from the Bot saying `Set channel to {new_channel_name}.`.
 
-![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/e3090569-16f5-6eb8-1fbd-6f1b1dbc53b0.png)
+![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/935ca7eb-0d9e-f222-600e-b67538ad1402.png)
 
 #### Setting the Base Time
 
