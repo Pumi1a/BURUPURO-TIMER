@@ -97,7 +97,8 @@ You can reset various settings back to their defaults. Please try using this whe
 I am posting at 25-minute intervals, but it seems that after a day passes, the timing of the day-night switch shifts by a few minutes. This could be due to the day-night switch not being exactly 25 minutes, or due to the server's time shifting due to maintenance or other circumstances. I will investigate this issue, but it would be helpful if you could provide me with any information.
 
 
-## Current Requests
+## Features planned for implementation at the current stage
+* データベースを準備する機能により、再デプロイのたびに再設定する必要がなくなります。
 
 ## Finally
 BURUPURO is so much fun!!! But Orochi's "Stream of Life" hardly ever appears (damn it!!!). I carefully selected 11 Orochi... For that, I set a timer every 50 minutes while doing other tasks, but I thought it could be automated with a bot, so I created one. Please give it a try.
