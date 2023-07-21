@@ -94,6 +94,8 @@ You can reset various settings back to their defaults. Please try using this whe
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/53e9d72e-0ac3-9a23-ccf0-4996e17a3f02.png)
 
 ## Known bugs at present
+I am posting at 25-minute intervals, but it seems that after a day passes, the timing of the day-night switch shifts by a few minutes. This could be due to the day-night switch not being exactly 25 minutes, or due to the server's time shifting due to maintenance or other circumstances. I will investigate this issue, but it would be helpful if you could provide me with any information.
+
 
 ## Current Requests
 
