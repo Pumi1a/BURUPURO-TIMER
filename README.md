@@ -45,7 +45,7 @@ Bot の各スラッシュコマンドについて説明していきます。ス�
 エラーなどによりきちんと投稿されないことがあります。基準時間を現時刻の30分前くらいに設定して、投稿されるのを確認してから正しい基準時間を設定することをおすすめします。投稿されなかったら、`/reset_server` コマンドを実行して再度設定してみて下さい。
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から、`/set_day_base_time` または `/set_night_base_time` を選択して下さい。`set_day_base_time` では、昼になったタイミングを設定するコマンドで、同時に夜の時間も設定してくれます。逆に `set_night_base_time` では、夜になったタイミングを設定するコマンドで、同時に昼の時間も設定してくれます。
 2. どちらか都合のいいコマンドを選択し、時間を入力してコマンドを実行して下さい。
-3. Bot から `Day base time set to: {hour}:{minute}. The night base time is set to: {hour}:{minute}.` とメッセージが来ます。
+3. Bot から `Day base time set to: {hour}:{minute}. Night base time set to: {hour}:{minute}.` とメッセージが来ます。
 
 <img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/4f06aa25-460a-ab9b-57ae-0737c6dc347c.png"><img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/19d8706b-3d62-82a5-fb77-f165967f85b8.png">
 
