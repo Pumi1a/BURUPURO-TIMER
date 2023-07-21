@@ -98,7 +98,7 @@ I am posting at 25-minute intervals, but it seems that after a day passes, the t
 
 
 ## Features planned for implementation at the current stage
-* データベースを準備する機能により、再デプロイのたびに再設定する必要がなくなります。
+* A feature to prepare a database, eliminating the need to reconfigure every time you redeploy.
 
 ## Finally
 BURUPURO is so much fun!!! But Orochi's "Stream of Life" hardly ever appears (damn it!!!). I carefully selected 11 Orochi... For that, I set a timer every 50 minutes while doing other tasks, but I thought it could be automated with a bot, so I created one. Please give it a try.
