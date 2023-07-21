@@ -44,7 +44,7 @@ You can set the timing for the day-night switch. Since each server may have diff
 
 1. Type "/" and click on the Blue Pro Timer icon, then select `/set_day_base_time` or `/set_night_base_time` from the command list. With `set_day_base_time`, you can set the timing when it becomes daytime, and it will also set the nighttime for you. On the other hand, `set_night_base_time` allows you to set the timing when it becomes nighttime, and it will also set the daytime for you.
 2. Select the command that suits you, enter the time, and execute the command.
-3. You will receive a message from the bot saying `Day base time set to: {hour}:{minute}. The night base time is set to: {hour}:{minute}.`
+3. You will receive a message from the bot saying `Day base time set to: {hour}:{minute}. Night base time set to: {hour}:{minute}.`
 
 <img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/4f06aa25-460a-ab9b-57ae-0737c6dc347c.png"><img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/19d8706b-3d62-82a5-fb77-f165967f85b8.png">
 
