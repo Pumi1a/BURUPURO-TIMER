@@ -21,10 +21,10 @@ Please click [here](https://discord.com/api/oauth2/authorize?client_id=112782330
 
 **Furthermore, the bot will not post anything if the base time is not set.**
 
-**When redeploying the Bot, we ask that you please reset the configuration. Because preparing the database is cumbersome, we do not save the settings for each server in the database. Please understand.**
+**When redeploying the Bot, I ask that you please reset the configuration. Because preparing the database is cumbersome, I do not save the settings for each server in the database. Please understand（If there are many requests, I will consider introducing a database.）.**
 
 ### Description of Each Slash Command
-Here we will explain each slash command of the bot.Please try the slash command again if you encounter the following error when executing it.
+Here I will explain each slash command of the bot.Please try the slash command again if you encounter the following error when executing it.
 
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/ad29da08-18cc-0377-f841-a0c0b9fa2655.png)
 
