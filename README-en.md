@@ -7,9 +7,7 @@ I have created a Discord Bot that notifies you of the day and night switch timin
 ## Points to note
 Please report any errors to the developer via [Twitter](https://twitter.com/Pumi1a) or [github](https://github.com/Pumi1a/BURUPURO-TIMER). I have tried to verify under various conditions, but as I am a beginner in Python, there may be bugs. I apologize for any inconvenience.Bugs that I am aware of at this point are described towards the end. If it doesn't work properly, try resetting by executing the `/reset_server` command.
 
-The hosting service used is "Railway". It has a memory of 8GB and a CPU of 8 cores. I don't think it's a particularly demanding bot, but it might become unstable. More information about "Railway" is summarized in the following article:
-
-https://qiita.com/Pumila/items/29f26fb349d5592046ae
+The hosting service used is "Railway". It has a memory of 8GB and a CPU of 8 cores. I don't think it's a particularly demanding bot, but it might become unstable. Please refer to [this](https://qiita.com/Pumila/items/29f26fb349d5592046ae) for information about "Railway".
 
 ## Installation method
 **Note: Only those with server admin rights can install the Bot.**
