@@ -38,7 +38,7 @@ You can change the channel to which notifications are sent. By default, it is se
 
 #### Setting the Base Time
 
-You can set the timing for the day-night switch. Since each server may have different switch timings, or they may shift due to maintenance, it is not set automatically. The user is required to enter the timing of the day-night switch. It is fine to enter a time in the past.
+You can set the timing for the day-night switch. Since each server may have different switch timings, or they may shift due to maintenance, it is not set automatically. The user is required to enter the timing of the day-night switch. There is no problem whether the time you input is in the past or the future.
 
 1. Type "/" and click on the Blue Pro Timer icon, then select `/set_day_base_time` or `/set_night_base_time` from the command list. With `set_day_base_time`, you can set the timing when it becomes daytime, and it will also set the nighttime for you. On the other hand, `set_night_base_time` allows you to set the timing when it becomes nighttime, and it will also set the daytime for you.
 2. Select the command that suits you, enter the time, and execute the command.
