@@ -1,4 +1,4 @@
-[English README is here](https://github.com/Pumi1a/BURUPURO-TIMER/blob/main/README-en.md)
+[English README is here](https://github.com/Pumi1a/BURUPURO-TIMER/blob/main/README.md)
 
 Qiita にも記事として投稿してあります。記事リンクは[こちら](https://qiita.com/Pumila/items/ef72f110f8f5e8fad1df)から。
 ## はじめに
