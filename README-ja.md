@@ -33,6 +33,7 @@ Bot の各スラッシュコマンドについて説明していきます。ス�
 2. 通知をさせたいチャンネル名を入力し、実行して下さい。候補として挙がっているものから選択しても構いません。
 3. Bot に投稿権限がないチャンネル、もしくはテキストチャンネルではないチャンネルを選択した場合、以下のような警告が出ます。`Warning: No permission to post in the channel {new_channel.name}.`, `{new_channel.name} is not a text channel.`。
 3. Bot から `Set channel to {new_channel_name}.` とメッセージが来ます。
+   
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/935ca7eb-0d9e-f222-600e-b67538ad1402.png)
 
 #### 基準時間を設定する
@@ -41,6 +42,7 @@ Bot の各スラッシュコマンドについて説明していきます。ス�
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から `/set_day_base_time` または `/set_night_base_time` を選択して下さい。`set_day_base_time` では、昼になったタイミングを設定するコマンドで、同時に夜の時間も設定してくれます。逆に `set_night_base_time` では、夜になったタイミングを設定するコマンドで、同時に昼の時間も設定してくれます。
 2. どちらか都合のいいコマンドを選択し、時間を入力してコマンドを実行して下さい。
 3. Bot から `Day base time set to: {hour}:{minute}. Night base time set to: {hour}:{minute}.` とメッセージが来ます。
+   
 <img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/4f06aa25-460a-ab9b-57ae-0737c6dc347c.png"><img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/19d8706b-3d62-82a5-fb77-f165967f85b8.png">
 
 #### 一時的に通知を停止する
@@ -48,6 +50,7 @@ Bot の各スラッシュコマンドについて説明していきます。ス�
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から `/set_temporary_posting` を選択して下さい。
 2. 選択肢として、[True, False] が挙がると思います。通知を停止する時は、`False` を、通知を再開する時は `True` を選択して下さい。
 3. Bot から `Set temporary_posting to {new_value}.` とメッセージが来ます。
+   
 ![7.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/d849bba8-72d0-b2d9-7097-5b46116d6eb0.png)
 
 #### 昼夜のどちらかを通知、または両方を通知する
@@ -55,6 +58,7 @@ Bot の各スラッシュコマンドについて説明していきます。ス�
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から `/set_state` を選択して下さい。
 2. 選択肢として、[Day, Night, Both] が挙がると思います。夜だけ通知させたい方は、`Night` を、昼だけ通知させたい方は `Day` を選択して実行して下さい。やっぱり両方通知させたくなったら、 `Both` を選択して下さい。
 3. Bot から `State set to: {state}` とメッセージが来ます。
+   
 ![4.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/ddcd4da3-2486-7e55-2cad-58b22a1ac6ce.png)
 
 #### 通知するタイミングを昼/夜の何分前に変更する
@@ -62,6 +66,7 @@ Bot の各スラッシュコマンドについて説明していきます。ス�
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から `/notify_in_advance` を選択して下さい。
 2. 次にどれくらい前に通知させたいかを、分単位で入力し実行して下さい。
 3. Bot から `Will now notify {minutes_before} minutes in advance.` とメッセージが来ます。
+
 ![5.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/b6d3089b-17d2-da45-29e8-a064da134e43.png)
 
 #### 通知を昼/夜になったタイミングと何分前の両方投稿する
@@ -106,6 +111,7 @@ Bot の昼/夜の通知を遡り、削除することができます。
 各種設定を初期値にリセットすることができます。上手く投稿がされない時などに使用してみて下さい。
 1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から、`/reset_server` を選択して実行して下さい。
 2. Bot から `Server configuration has been reset. Default post channel set to {channel.name}. Please input your settings.` とメッセージが来ます。
+
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/53e9d72e-0ac3-9a23-ccf0-4996e17a3f02.png)
 
 ## 現時点で把握しているバグ
