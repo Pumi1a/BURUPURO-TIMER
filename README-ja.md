@@ -7,7 +7,7 @@ BLUE PROTOCOL（以下、ブルプロ）の昼夜切り替えタイミングを�
 https://github.com/Pumi1a/BURUPURO-TIMER
 
 ## 注意点
-機能改善要望やバグなどは、`send_message_to_developer`コマンドを利用して下さい。Twitterは基本見てないので気づきません。現時点で把握しているバグについては最後の方で記載しています。上手く動作しない時は `/reset_server` コマンドを実行して再設定してみて下さい。
+機能改善要望やバグなどは、`/send_message_to_developer`コマンドを利用して下さい。X（旧 Twitter）は基本見てないので気づきません。現時点で把握しているバグについては最後の方で記載しています。上手く動作しない時は `/reset_server` コマンドを実行して再設定してみて下さい。
 なお、利用しているホスティングサービスは "Railway" になります。性能はメモリが 8GB、CPU が 8 コアになります。そこまで負荷のかかる Bot ではないと思いますが、もしかしたら安定しなくなるかもしれません。"Railway" については以下記事にまとめています。
 
 https://qiita.com/Pumila/items/29f26fb349d5592046ae
