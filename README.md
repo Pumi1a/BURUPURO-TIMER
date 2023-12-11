@@ -108,7 +108,7 @@ You can display the current settings of the server.
 1. Type "/" and click on the BlurPro Timer icon, then select /check_config from the list of commands and execute.
 2. A message like the following will come from the Bot.
 
-####Reporting Feature Improvements or Bugs to the Developer
+#### Reporting Feature Improvements or Bugs to the Developer
 You can report feature improvement requests or bugs to me. I don’t usually check X (former Twitter), so using this method is appreciated. Of course, if there's a high number of prank uses, usage restriction penalties will be applied to the Bot.
 
 1. Type "/" and click on the BlurPro Timer icon, then select /send_message_to_develope from the list of commands and execute.
