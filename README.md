@@ -17,10 +17,6 @@ Please click [here](https://discord.com/api/oauth2/authorize?client_id=112782330
 ## How to use
 **Note: Although the server information is updated every 5 minutes, depending on the timing of the slash command execution, the bot may not behave as expected.** For instance, you might get notifications to the default destination even after you have changed the notification channel, or you may get notifications even after you have turned them off. Please understand that these are issues due to the program's specifications.
 
-**Furthermore, the bot will not post anything if the base time is not set.**
-
-**When redeploying the Bot, I ask that you please reset the configuration. Because preparing the database is cumbersome, I do not save the settings for each server in the database. Please understand（If there are many requests, I will consider introducing a database.）.**
-
 ### Description of Each Slash Command
 Here I will explain each slash command of the bot.Please try the slash command again if you encounter the following error when executing it.
 
@@ -36,24 +32,14 @@ You can change the channel to which notifications are sent. By default, it is se
 
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/935ca7eb-0d9e-f222-600e-b67538ad1402.png)
 
-#### Setting the Base Time
+#### Starting Notifications
+You can set whether to notify the timing of day and night. The default value is `False`.
 
-You can set the timing for the day-night switch. Since each server may have different switch timings, or they may shift due to maintenance, it is not set automatically. The user is required to enter the timing of the day-night switch. There is no problem whether the time you input is in the past or the future.
+1. Type "/" and click on the Blue Pro Timer icon, then select `/set_posting` from the command list.
+2. You will have the options [True, False]. Choose `True` if you want to enable notifications, and `False` if you want to stop them.
+3. You will receive a message from the bot saying `Set posting to {new_value}.`
 
-1. Type "/" and click on the Blue Pro Timer icon, then select `/set_day_base_time` or `/set_night_base_time` from the command list. With `set_day_base_time`, you can set the timing when it becomes daytime, and it will also set the nighttime for you. On the other hand, `set_night_base_time` allows you to set the timing when it becomes nighttime, and it will also set the daytime for you.
-2. Select the command that suits you, enter the time, and execute the command.
-3. You will receive a message from the bot saying `Day base time set to: {hour}:{minute}. Night base time set to: {hour}:{minute}.`
-
-<img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/4f06aa25-460a-ab9b-57ae-0737c6dc347c.png"><img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/19d8706b-3d62-82a5-fb77-f165967f85b8.png">
-
-#### Choose to Temporarily Notify
-You can set whether to temporarily notify the day/night timing. The default value is `False`.
-
-1. Type "/" and click on the Blue Pro Timer icon, then select `/set_temporary_posting` from the command list.
-2. You will have the options [True, False]. If you want to be notified temporarily, select `True`, if you no longer need to be notified, select `False`.
-3. You will receive a message from the bot saying `Set temporary_posting to {new_value}.`
-
-![7.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/d849bba8-72d0-b2d9-7097-5b46116d6eb0.png)
+![screenshot2024-01-19 08.42.49.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/33d04e75-3f90-bf2b-2da4-863fd5fbfb36.png)
 
 #### Choose to Notify Either Day or Night, or Both
 There may be people who only want to be notified during the day or night (for example, if you have a named event only at night, you only need to be notified at night). Therefore, you can choose to notify both day and night, or just one. The default setting is to notify both.
