@@ -110,10 +110,8 @@ You can reset various settings back to their defaults. Please try using this whe
 ![キャプチャ.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/53e9d72e-0ac3-9a23-ccf0-4996e17a3f02.png)
 
 ## Known bugs at present
-We are posting at 25-minute intervals, but it seems that after one day, the timing of the day/night switch shifts by a few minutes. Since a day has 1,440 minutes and it's not divisible by 25, we seem to be adjusting the time around 9 AM. Currently, this is under investigation.
 
 ## Features planned for implementation at the current stage
-* A feature to prepare a database, eliminating the need to reconfigure every time you redeploy.
 
 ## Finally
 BURUPURO is so much fun!!! But Orochi's "Stream of Life" hardly ever appears (damn it!!!). I carefully selected 11 Orochi... For that, I set a timer every 50 minutes while doing other tasks, but I thought it could be automated with a bot, so I created one. Please give it a try.
