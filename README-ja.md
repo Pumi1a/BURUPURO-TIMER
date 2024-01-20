@@ -45,13 +45,13 @@ Bot の各スラッシュコマンドについて説明していきます。ス�
    
 <img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/4f06aa25-460a-ab9b-57ae-0737c6dc347c.png"><img width=300 src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/19d8706b-3d62-82a5-fb77-f165967f85b8.png">
 
-#### 一時的に通知を停止する
-一時的に昼夜のタイミングを通知を停止するか設定することができます。デフォルト値は `True` です。
-1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から `/set_temporary_posting` を選択して下さい。
-2. 選択肢として、[True, False] が挙がると思います。通知を停止する時は、`False` を、通知を再開する時は `True` を選択して下さい。
-3. Bot から `Set temporary_posting to {new_value}.` とメッセージが来ます。
-   
-![7.PNG](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/d849bba8-72d0-b2d9-7097-5b46116d6eb0.png)
+#### 通知を開始する
+昼夜のタイミングを通知させるか設定することができます。デフォルト値は `False` です。
+1. "/" を入力して、ブルプロタイマーのアイコンをクリックし、コマンド一覧から `/set_posting` を選択して下さい。
+2. 選択肢として、[True, False] が挙がると思います。通知させたい時は、`True` を、通知を停止する時は `False` を選択して下さい。
+3. Bot から `Set posting to {new_value}.` とメッセージが来ます。
+
+![screenshot2024-01-19 08.42.49.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1115291/33d04e75-3f90-bf2b-2da4-863fd5fbfb36.png)
 
 #### 昼夜のどちらかを通知、または両方を通知する
 昼夜のどちらかだけ通知をさせたいという方もいますよね（夜限のネームドは夜だけ通知させればいいわけですし）。そこで、昼夜両方を通知させるか、昼夜のどちらかだけ通知させるかを設定することができます。デフォルト値は両方通知するようになっています。
